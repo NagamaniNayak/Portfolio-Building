@@ -1,0 +1,89 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Messed Up Code Test</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="container" id="main-app" data-role="wrapper">
+      <header class="main-header">
+        <h1>Welcome to My Website</h1>
+        <p class="subtitle">
+          This is a completely messy HTML snippet built to test your formatter
+          settings.
+        </p>
+      </header>
+      <main>
+        <section class="card-section" id="gallery">
+          <h2>Our Gallery</h2>
+          <div class="grid-container">
+            <div class="card" data-id="1">
+              <img
+                src="https://unsplash.com"
+                alt="Beautiful artwork displayed in a minimal gold frame gallery setting"
+                class="card-img"
+              />
+              <h3>Artwork Title 1</h3>
+              <p>This text has weird padding and spacing inside the tag.</p>
+              <a href="#" class="btn btn-primary" id="btn-1">View Details</a>
+            </div>
+            <div class="card" data-id="2">
+              <img
+                src="https://unsplash.com"
+                alt="Modern abstract sculpture on a pedestal"
+                class="card-img"
+              />
+              <h3>Artwork Title 2</h3>
+              <p>
+                Another paragraph that is completely pushed to the margin line.
+              </p>
+              <a href="#" class="btn btn-secondary"> Explore </a>
+            </div>
+          </div>
+        </section>
+        <form
+          action="/submit"
+          method="POST"
+          id="survey-form"
+          class="form-container"
+          no-validate
+        >
+          <div class="form-group">
+            <label for="username">User Name:</label>
+            <input
+              type="text"
+              id="username"
+              name="username"
+              class="form-control"
+              placeholder="Enter name"
+              required
+            />
+          </div>
+          <div class="form-group">
+            <label for="email">Email Address:</label
+            ><input
+              type="email"
+              id="email"
+              class="form-control"
+              placeholder="name@example.com"
+              required
+            />
+          </div>
+          <button type="submit" class="submit-btn">Submit Response</button>
+        </form>
+      </main>
+      <footer>
+        <p>&copy; 2026 Messy Code Inc. All rights reserved.</p>
+        <ul class="footer-links">
+          <li><a href="#">Privacy Policy</a></li>
+          <li>
+            <a href="#">Terms of Service</a>
+          </li>
+          <li><a href="#">Contact Us</a></li>
+        </ul>
+      </footer>
+    </div>
+  </body>
+</html>
